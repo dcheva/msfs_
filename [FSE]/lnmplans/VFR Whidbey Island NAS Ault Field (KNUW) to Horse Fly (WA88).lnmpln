@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>3500</CruisingAlt>
+      <CreationDate>2023-04-24T22:45:44+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>M20.lnmperf</FilePath>
+      <Type>G21</Type>
+      <Name>Grumman G-21 Goose</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-122.648689" Lat="48.342190" Alt="32.00"/>
+      <Start>32</Start>
+      <Type>Runway</Type>
+      <Heading>334.781</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Whidbey Island NAS /Ault Field</Name>
+        <Ident>KNUW</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.655960" Lat="48.351837" Alt="32.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>Cross WA88</Ident>
+        <Type>USER</Type>
+        <Pos Lon="-122.597130" Lat="48.892036" Alt="1025.49"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Horse Fly</Name>
+        <Ident>WA88</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.556839" Lat="48.892887" Alt="70.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

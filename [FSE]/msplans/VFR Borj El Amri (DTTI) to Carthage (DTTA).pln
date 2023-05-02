@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>DTTI to DTTA</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>2500</CruisingAlt>
+        <DepartureID>DTTI</DepartureID>
+        <DepartureLLA>N36° 43' 26.22",E9° 56' 19.54",+000108.00</DepartureLLA>
+        <DestinationID>DTTA</DestinationID>
+        <DestinationLLA>N36° 51' 4.00",E10° 13' 37.00",+000016.00</DestinationLLA>
+        <Descr>DTTI, DTTA</Descr>
+        <DeparturePosition>12</DeparturePosition>
+        <DepartureName>Borj El Amri</DepartureName>
+        <DestinationName>Carthage</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="DTTI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 43' 16.00",E9° 56' 36.00",+000108.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DTTA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 51' 4.00",E10° 13' 37.00",+000016.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

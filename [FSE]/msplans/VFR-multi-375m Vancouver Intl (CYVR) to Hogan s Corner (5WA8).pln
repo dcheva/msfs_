@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYVR to 5WA8</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>3500</CruisingAlt>
+        <DepartureID>CYVR</DepartureID>
+        <DepartureLLA>N49° 12' 3.34",W123° 9' 48.73",+000009.00</DepartureLLA>
+        <DestinationID>5WA8</DestinationID>
+        <DestinationLLA>N47° 2' 34.32",W124° 8' 44.62",+000050.00</DestinationLLA>
+        <Descr>CYVR, 5WA8</Descr>
+        <DeparturePosition>26R</DeparturePosition>
+        <DepartureName>Vancouver Intl</DepartureName>
+        <DestinationName>Hogan's Corner</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYVR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49° 11' 40.90",W123° 11' 2.28",+000009.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYVR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KFHR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 31' 22.49",W123° 1' 30.31",+003500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KFHR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WN53">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 6' 37.53",W122° 3' 46.21",+003500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>WN53</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WA68">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 56' 6.22",W119° 59' 12.37",+003500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>WA68</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KSEA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 26' 56.39",W122° 18' 33.52",+003500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KSEA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="5WA8">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 2' 34.32",W124° 8' 44.62",+000050.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>5WA8</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

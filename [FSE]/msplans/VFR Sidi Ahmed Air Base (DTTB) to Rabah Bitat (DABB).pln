@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>DTTB to DABB</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>DTTB</DepartureID>
+        <DepartureLLA>N37° 14' 38.44",E9° 48' 10.49",+000016.00</DepartureLLA>
+        <DestinationID>DABB</DestinationID>
+        <DestinationLLA>N36° 49' 20.01",E7° 48' 34.00",+000011.00</DestinationLLA>
+        <Descr>DTTB, DABB</Descr>
+        <DeparturePosition>26</DeparturePosition>
+        <DepartureName>Sidi Ahmed Air Base</DepartureName>
+        <DestinationName>Rabah Bitat</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="DTTB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 14' 40.92",E9° 47' 33.92",+000016.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BIZ">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N37° 14' 7.00",E9° 45' 56.00",+001097.36</WorldPosition>
+            <ICAO>
+                <ICAORegion>DT</ICAORegion>
+                <ICAOIdent>BIZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DABB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 49' 20.01",E7° 48' 34.00",+000011.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DABB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>6WA2 to KBLI</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>6000</CruisingAlt>
+        <DepartureID>6WA2</DepartureID>
+        <DepartureLLA>N47° 6' 42.10",W122° 49' 5.90",+000130.00</DepartureLLA>
+        <DestinationID>KBLI</DestinationID>
+        <DestinationLLA>N48° 47' 33.70",W122° 32' 15.10",+000171.00</DestinationLLA>
+        <Descr>6WA2, KBLI</Descr>
+        <DeparturePosition>25</DeparturePosition>
+        <DepartureName>Gower Field</DepartureName>
+        <DestinationName>Bellingham Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="6WA2">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 6' 41.34",W122° 49' 16.48",+000130.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>6WA2</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KFHR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 31' 22.49",W123° 1' 30.31",+006000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KFHR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KBLI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 47' 33.70",W122° 32' 15.10",+000171.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KBLI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

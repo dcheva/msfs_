@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>S39 to 9OR0</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>9000</CruisingAlt>
+        <DepartureID>S39</DepartureID>
+        <DepartureLLA>N44° 17' 8.81",W120° 53' 45.48",+003251.00</DepartureLLA>
+        <DestinationID>9OR0</DestinationID>
+        <DestinationLLA>N44° 18' 54.45",W123° 1' 29.32",+000360.00</DestinationLLA>
+        <Descr>S39, 9OR0</Descr>
+        <DeparturePosition>29</DeparturePosition>
+        <DepartureName>Prineville</DepartureName>
+        <DestinationName>Lafferty Field</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="S39">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 17' 16.29",W120° 54' 19.78",+003251.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>S39</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KBDN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 5' 40.43",W121° 12' 0.81",+009000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KBDN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="5S0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 45' 9.21",W122° 30' 16.29",+009000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>5S0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="9OR0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 18' 54.45",W123° 1' 29.32",+000360.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>9OR0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

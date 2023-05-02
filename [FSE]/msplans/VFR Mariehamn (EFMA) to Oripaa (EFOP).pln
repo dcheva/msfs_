@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EFMA to EFOP</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>EFMA</DepartureID>
+        <DepartureLLA>N60° 7' 28.27",E19° 54' 22.91",+000011.00</DepartureLLA>
+        <DestinationID>EFOP</DestinationID>
+        <DestinationLLA>N60° 52' 34.00",E22° 44' 53.00",+000331.00</DestinationLLA>
+        <Descr>EFMA, EFOP</Descr>
+        <DeparturePosition>PARKING 3</DeparturePosition>
+        <DepartureName>Mariehamn</DepartureName>
+        <DestinationName>Oripaa</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EFMA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N60° 7' 20.19",E19° 53' 54.87",+000011.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EFMA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="MAR">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N60° 8' 27.55",E19° 54' 51.94",+000368.94</WorldPosition>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>MAR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIKMO">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N60° 12' 18.28",E19° 58' 12.52",+001599.62</WorldPosition>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>TIKMO</ICAOIdent>
+                <ICAOAirport>EFMA</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="EFOP">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N60° 52' 34.00",E22° 44' 53.00",+000331.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EFOP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

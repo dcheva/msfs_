@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>11500</CruisingAlt>
+      <CreationDate>2023-04-30T22:45:42+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>DC6B PMDG.lnmperf</FilePath>
+      <Type>DC6B</Type>
+      <Name>DC6 PMDG</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-3.330505" Lat="51.392567" Alt="220.00"/>
+      <Start>30</Start>
+      <Type>Runway</Type>
+      <Heading>296.823</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Cardiff</Name>
+        <Ident>EGFF</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-3.343338" Lat="51.396667" Alt="220.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>NUMPO</Ident>
+        <Region>EG</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-3.283611" Lat="51.610001" Alt="4218.46"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Manchester</Name>
+        <Ident>MCT</Ident>
+        <Region>EG</Region>
+        <Type>VOR</Type>
+        <Pos Lon="-2.262289" Lat="53.357025" Alt="11500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>DIGBI</Ident>
+        <Region>EG</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-1.050278" Lat="55.185001" Alt="11500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>BALDU</Ident>
+        <Region>EN</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="2.358078" Lat="59.190632" Alt="11500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ETNOR</Ident>
+        <Region>EN</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="3.962055" Lat="60.623695" Alt="11500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>RUBVA</Ident>
+        <Region>EN</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="4.438911" Lat="61.168179" Alt="11500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TUTOP</Ident>
+        <Region>EN</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="5.453333" Lat="62.000000" Alt="9382.79"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ENIGI</Ident>
+        <Region>EN</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="5.798689" Lat="62.330837" Alt="4054.08"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Vigra</Name>
+        <Ident>ENAL</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="6.119720" Lat="62.562500" Alt="70.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

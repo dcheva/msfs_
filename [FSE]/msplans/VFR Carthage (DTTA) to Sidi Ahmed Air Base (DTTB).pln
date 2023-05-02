@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>DTTA to DTTB</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>2500</CruisingAlt>
+        <DepartureID>DTTA</DepartureID>
+        <DepartureLLA>N36° 50' 21.57",E10° 13' 25.81",+000016.00</DepartureLLA>
+        <DestinationID>DTTB</DestinationID>
+        <DestinationLLA>N37° 14' 40.92",E9° 47' 33.92",+000016.00</DestinationLLA>
+        <Descr>DTTA, DTTB</Descr>
+        <DeparturePosition>1</DeparturePosition>
+        <DepartureName>Carthage</DepartureName>
+        <DestinationName>Sidi Ahmed Air Base</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="DTTA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 51' 4.00",E10° 13' 37.00",+000016.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DTTB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 14' 40.92",E9° 47' 33.92",+000016.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

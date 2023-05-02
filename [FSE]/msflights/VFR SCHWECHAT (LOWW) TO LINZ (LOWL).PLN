@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Schwechat to Linz</Title>
+        <FPType>VFR</FPType>
+        <RouteType>VOR</RouteType>
+        <CruisingAlt>4000.000</CruisingAlt>
+        <DepartureID>LOWW</DepartureID>
+        <DepartureLLA>N48° 6' 37.00",E16° 34' 11.00",+000589.50</DepartureLLA>
+        <DestinationID>LOWL</DestinationID>
+        <DestinationLLA>N48° 14' 7.00",E14° 11' 17.00",+000950.00</DestinationLLA>
+        <Descr>Schwechat to Linz</Descr>
+        <DeparturePosition>34</DeparturePosition>
+        <DepartureName>Schwechat</DepartureName>
+        <DestinationName>Linz</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LOWW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 6' 37.00",E16° 34' 11.00",+000589.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LOWW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECLIMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 8' 13.00",E16° 34' 15.28",+001189.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WGM">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N48° 19' 25.88",E16° 29' 27.43",+003500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>LO</ICAORegion>
+                <ICAOIdent>WGM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TUN">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N48° 18' 33.60",E15° 58' 46.92",+004000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>LO</ICAORegion>
+                <ICAOIdent>TUN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 18' 7.28",E15° 46' 1.94",+004000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 16' 55.98",E15° 14' 28.95",+004000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEAPPROACH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 13' 24.96",E13° 55' 18.21",+003100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="LOWL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 14' 7.00",E14° 11' 17.00",+000950.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LOWL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

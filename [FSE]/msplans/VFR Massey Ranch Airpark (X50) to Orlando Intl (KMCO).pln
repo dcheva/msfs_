@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>X50 to KMCO</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>7500</CruisingAlt>
+        <DepartureID>X50</DepartureID>
+        <DepartureLLA>N28° 59' 2.25",W80° 55' 35.86",+000010.00</DepartureLLA>
+        <DestinationID>KMCO</DestinationID>
+        <DestinationLLA>N28° 25' 45.80",W81° 18' 32.39",+000090.00</DestinationLLA>
+        <Descr>X50, KMCO</Descr>
+        <DeparturePosition>PARKING 27</DeparturePosition>
+        <DepartureName>Massey Ranch Airpark</DepartureName>
+        <DestinationName>Orlando Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="X50">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N28° 58' 44.10",W80° 55' 29.19",+000010.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>X50</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KMCO">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N28° 25' 45.80",W81° 18' 32.39",+000090.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KMCO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

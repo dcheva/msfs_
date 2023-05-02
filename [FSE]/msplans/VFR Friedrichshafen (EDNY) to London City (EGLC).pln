@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EDNY to EGLC</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>10500</CruisingAlt>
+        <DepartureID>EDNY</DepartureID>
+        <DepartureLLA>N47° 40' 31.95",E9° 31' 20.58",+001368.00</DepartureLLA>
+        <DestinationID>EGLC</DestinationID>
+        <DestinationLLA>N51° 30' 19.01",E0° 3' 18.96",+000019.00</DestinationLLA>
+        <Descr>EDNY, EGLC</Descr>
+        <DeparturePosition>24</DeparturePosition>
+        <DepartureName>Friedrichshafen</DepartureName>
+        <DestinationName>London City</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EDNY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 40' 16.74",E9° 30' 41.36",+001368.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EDNY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="EGLC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 30' 19.01",E0° 3' 18.96",+000019.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGLC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

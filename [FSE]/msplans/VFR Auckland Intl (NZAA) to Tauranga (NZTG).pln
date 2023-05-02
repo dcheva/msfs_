@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>NZAA to NZTG</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>6000</CruisingAlt>
+        <DepartureID>NZAA</DepartureID>
+        <DepartureLLA>S37° 0' 58.38",E174° 46' 16.03",+000019.00</DepartureLLA>
+        <DestinationID>NZTG</DestinationID>
+        <DestinationLLA>S37° 40' 19.00",E176° 11' 45.98",+000012.00</DestinationLLA>
+        <Descr>NZAA, NZTG</Descr>
+        <DeparturePosition>5R</DeparturePosition>
+        <DepartureName>Auckland Intl</DepartureName>
+        <DestinationName>Tauranga</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="NZAA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S37° 0' 29.00",E174° 47' 30.02",+000019.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZAA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW05R">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S37° 1' 2.87",E174° 45' 59.71",+000019.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW05R3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S37° 0' 4.00",E174° 49' 32.74",+000924.84</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="AA">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>S37° 0' 16.69",E174° 48' 49.06",+001111.71</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>AA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ORERE">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S36° 56' 43.14",E175° 14' 52.97",+006000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>ORERE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZWV">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S37° 25' 48.73",E175° 57' 7.79",+005895.50</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZWV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TG">
+            <ATCWaypointType>NDB</ATCWaypointType>
+            <WorldPosition>S37° 40' 39.20",E176° 11' 28.40",+000137.89</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>TG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZTG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S37° 40' 19.00",E176° 11' 45.98",+000012.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZTG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

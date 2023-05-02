@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>7000</CruisingAlt>
+      <CreationDate>2023-04-25T12:50:06+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <Type>C172</Type>
+      <Name>Example Performance Profile</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-126.615097" Lat="50.213326" Alt="415.00"/>
+      <Start>29</Start>
+      <Type>Runway</Type>
+      <Heading>305.644</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Woss</Name>
+        <Ident>CAK4</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-126.620621" Lat="50.215858" Alt="415.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Vancouver Intl</Name>
+        <Ident>CYVR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-123.183968" Lat="49.194695" Alt="9.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

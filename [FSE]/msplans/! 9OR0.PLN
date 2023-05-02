@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Lafferty Field to Lafferty Field</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>6000.000</CruisingAlt>
+        <DepartureID>9OR0</DepartureID>
+        <DepartureLLA>N44° 18' 54.45",W123° 1' 29.32",+000350.00</DepartureLLA>
+        <DestinationID>9OR0</DestinationID>
+        <DestinationLLA>N44° 18' 54.45",W123° 1' 29.32",+000350.00</DestinationLLA>
+        <Descr>Lafferty Field to Lafferty Field</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>Lafferty Field</DepartureName>
+        <DestinationName>Lafferty Field</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="9OR0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 18' 54.45",W123° 1' 29.32",+000350.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>16</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>9OR0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="JUXAS">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N44° 15' 26.83",W123° 2' 3.10",+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>K1</ICAORegion>
+                <ICAOIdent>JUXAS</ICAOIdent>
+                <ICAOAirport>KEUG</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="9OR0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 18' 54.45",W123° 1' 29.32",+000350.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>9OR0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

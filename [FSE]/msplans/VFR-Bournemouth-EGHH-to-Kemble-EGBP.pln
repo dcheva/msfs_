@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EGHH to EGBP</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>2000</CruisingAlt>
+        <DepartureID>EGHH</DepartureID>
+        <DepartureLLA>N50° 47' 7.06",W1° 50' 55.63",+000038.00</DepartureLLA>
+        <DestinationID>EGBP</DestinationID>
+        <DestinationLLA>N51° 40' 6.28",W2° 3' 34.59",+000433.00</DestinationLLA>
+        <Descr>EGHH, EGBP</Descr>
+        <DeparturePosition>GATE G 12</DeparturePosition>
+        <DepartureName>Bournemouth</DepartureName>
+        <DestinationName>Kemble</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EGHH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N50° 46' 48.00",W1° 50' 33.00",+000038.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGHH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N51° 39' 15.65",W2° 10' 26.55",+001789.43</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="EGBP">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 40' 6.28",W2° 3' 34.59",+000433.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGBP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

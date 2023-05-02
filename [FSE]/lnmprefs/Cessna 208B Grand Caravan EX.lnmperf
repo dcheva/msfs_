@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
+  <AircraftPerf>
+    <Header>
+      <CreationDate>2020-12-05T15:31:34</CreationDate>
+      <FileVersion>1.0</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.6.4.beta</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmperf.html</Documentation>
+    </Header>
+    <Options>
+      <Name>Cessna 208B Grand Caravan EX</Name>
+      <AircraftType>Caravan</AircraftType>
+      <Description></Description>
+      <FuelAsVolume>1</FuelAsVolume>
+      <JetFuel>1</JetFuel>
+    </Options>
+    <Perf>
+      <ContingencyFuelPercent>0.0</ContingencyFuelPercent>
+      <ExtraFuelLbsGal>0.000</ExtraFuelLbsGal>
+      <MinRunwayLengthFt>1399.000</MinRunwayLengthFt>
+      <ReserveFuelLbsGal>67.000</ReserveFuelLbsGal>
+      <RunwayType>SOFT</RunwayType>
+      <TaxiFuelLbsGal>1.671</TaxiFuelLbsGal>
+      <UsableFuelLbsGal>330.000</UsableFuelLbsGal>
+      <Alternate>
+        <FuelFlowLbsGalPerHour>67.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>100.000</SpeedKtsTAS>
+      </Alternate>
+      <Climb>
+        <FuelFlowLbsGalPerHour>68.958</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>154.479</SpeedKtsTAS>
+        <VertSpeedFtPerMin>476.573</VertSpeedFtPerMin>
+      </Climb>
+      <Cruise>
+        <FuelFlowLbsGalPerHour>69.227</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>174.105</SpeedKtsTAS>
+      </Cruise>
+      <Descent>
+        <FuelFlowLbsGalPerHour>39.855</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>102.414</SpeedKtsTAS>
+        <VertSpeedFtPerMin>456.606</VertSpeedFtPerMin>
+      </Descent>
+    </Perf>
+  </AircraftPerf>
+</LittleNavmap>

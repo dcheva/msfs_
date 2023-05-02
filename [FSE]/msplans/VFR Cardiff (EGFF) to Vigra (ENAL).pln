@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EGFF to ENAL</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>11500</CruisingAlt>
+        <DepartureID>EGFF</DepartureID>
+        <DepartureLLA>N51° 23' 33.24",W3° 19' 49.82",+000220.00</DepartureLLA>
+        <DestinationID>ENAL</DestinationID>
+        <DestinationLLA>N62° 33' 45.00",E6° 7' 10.99",+000070.00</DestinationLLA>
+        <Descr>EGFF, ENAL</Descr>
+        <DeparturePosition>30</DeparturePosition>
+        <DepartureName>Cardiff</DepartureName>
+        <DestinationName>Vigra</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EGFF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 23' 48.00",W3° 20' 36.02",+000220.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGFF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ENAL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N62° 33' 45.00",E6° 7' 10.99",+000070.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ENAL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

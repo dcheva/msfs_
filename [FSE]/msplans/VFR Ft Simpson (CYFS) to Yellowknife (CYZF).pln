@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYFS to CYZF</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5000</CruisingAlt>
+        <DepartureID>CYFS</DepartureID>
+        <DepartureLLA>N61° 45' 10.49",W121° 13' 46.94",+000547.00</DepartureLLA>
+        <DestinationID>CYZF</DestinationID>
+        <DestinationLLA>N62° 27' 46.94",W114° 26' 25.44",+000670.00</DestinationLLA>
+        <Descr>CYFS, CYZF</Descr>
+        <DeparturePosition>32</DeparturePosition>
+        <DepartureName>Ft Simpson</DepartureName>
+        <DestinationName>Yellowknife</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYFS">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N61° 45' 36.56",W121° 14' 11.50",+000547.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYFS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYZF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N62° 27' 46.94",W114° 26' 25.44",+000670.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYZF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

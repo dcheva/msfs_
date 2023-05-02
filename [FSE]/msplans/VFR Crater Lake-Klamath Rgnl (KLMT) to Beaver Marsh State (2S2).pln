@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KLMT to 2S2</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>7000</CruisingAlt>
+        <DepartureID>KLMT</DepartureID>
+        <DepartureLLA>N42° 8' 35.52",W121° 43' 35.43",+004095.00</DepartureLLA>
+        <DestinationID>2S2</DestinationID>
+        <DestinationLLA>N43° 7' 39.10",W121° 48' 31.40",+004638.00</DestinationLLA>
+        <Descr>KLMT, 2S2</Descr>
+        <DeparturePosition>32</DeparturePosition>
+        <DepartureName>Crater Lake-Klamath Rgnl</DepartureName>
+        <DestinationName>Beaver Marsh State</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KLMT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 9' 22.12",W121° 43' 59.55",+004095.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KLMT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="2S2">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 7' 39.10",W121° 48' 31.40",+004638.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>2S2</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

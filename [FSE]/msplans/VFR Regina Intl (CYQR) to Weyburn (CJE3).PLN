@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Regina Intl to Weyburn</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>4500.000</CruisingAlt>
+        <DepartureID>CYQR</DepartureID>
+        <DepartureLLA>N50° 25' 55.89",W104° 39' 57.79",+001894.75</DepartureLLA>
+        <DestinationID>CJE3</DestinationID>
+        <DestinationLLA>N49° 41' 50.98",W103° 48' 2.60",+001926.99</DestinationLLA>
+        <Descr>Regina Intl to Weyburn</Descr>
+        <DeparturePosition>13</DeparturePosition>
+        <DepartureName>Regina Intl</DepartureName>
+        <DestinationName>Weyburn</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYQR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N50° 25' 55.89",W104° 39' 57.79",+001894.75</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>13</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>CYQR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="QR">
+            <ATCWaypointType>NDB</ATCWaypointType>
+            <WorldPosition>N50° 22' 10.32",W104° 34' 22.02",+003050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>CY</ICAORegion>
+                <ICAOIdent>QR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CJE3">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49° 41' 50.98",W103° 48' 2.60",+001926.99</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>CJE3</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

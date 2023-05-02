@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>NZCH to NZMC</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>7000</CruisingAlt>
+        <DepartureID>NZCH</DepartureID>
+        <DepartureLLA>S43° 28' 30.57",E172° 32' 52.81",+000123.00</DepartureLLA>
+        <DestinationID>NZMC</DestinationID>
+        <DestinationLLA>S43° 45' 54.00",E170° 8' 0.00",+002153.00</DestinationLLA>
+        <Descr>NZCH, NZMC</Descr>
+        <DeparturePosition>20</DeparturePosition>
+        <DepartureName>Christchurch Intl</DepartureName>
+        <DestinationName>Mount Cook</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="NZCH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 29' 21.99",E172° 32' 4.04",+000123.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZCH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IDUBU">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S43° 39' 1.85",E172° 20' 40.91",+005725.95</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>IDUBU</ICAOIdent>
+                <ICAOAirport>NZCH</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZMC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S43° 45' 54.00",E170° 8' 0.00",+002153.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZMC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

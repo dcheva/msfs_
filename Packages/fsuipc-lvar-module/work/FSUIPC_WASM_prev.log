@@ -1,0 +1,43 @@
+Mon Apr 24 14:48:12 2023  [ALWAYS]: <=============================== START OF PROGRAM ===============================>
+Mon Apr 24 14:48:12 2023  [ALWAYS]: **** WASM version is 1.0.2 ****
+Mon Apr 24 14:48:12 2023    [INFO]: Ini file loaded from add-on package
+Mon Apr 24 14:48:12 2023    [INFO]: No ini file found in persistant storage at '\work\FSUIPC_WASM.ini'
+Mon Apr 24 14:48:12 2023  [ALWAYS]: lvarUpdateFrequency = 4
+Mon Apr 24 14:48:12 2023  [ALWAYS]: lvarScanDelay = 5
+Mon Apr 24 14:48:12 2023  [ALWAYS]: lvarScanFrequency = -2
+Mon Apr 24 14:48:12 2023  [ALWAYS]: useAirLocForHvars = 0
+Mon Apr 24 14:48:12 2023  [ALWAYS]: Maximum number of lvars/hvars per Client Data Area is 146
+Mon Apr 24 14:48:12 2023    [INFO]: Config Client Data Area mapped to ID 1
+Mon Apr 24 14:48:12 2023    [INFO]: Data Definition 1 added for Config Client Data Area definition
+Mon Apr 24 14:48:12 2023    [INFO]: Config Client Data Area created.
+Mon Apr 24 14:48:12 2023    [INFO]: Lvar Value Client Data Area mapped to ID 2
+Mon Apr 24 14:48:12 2023    [INFO]: Data Definition 2 added for Lvar Set Request Client Data Area definition
+Mon Apr 24 14:48:12 2023    [INFO]: Lvar Value Client Data Area created.
+Mon Apr 24 14:48:12 2023    [INFO]: Calculator Code Client Data Area mapped to ID 3
+Mon Apr 24 14:48:12 2023    [INFO]: Data Definition 3 added for Lvar Set Request Client Data Area definition
+Mon Apr 24 14:48:12 2023    [INFO]: Exec Calculator Code Client Data Area created.
+Mon Apr 24 14:48:38 2023    [INFO]: Aircraft loaded: 'C:\Games\MSFS\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Mon Apr 24 14:48:38 2023    [INFO]: Flight loaded: 'flights\other\MainMenu.FLT'
+Mon Apr 24 14:51:09 2023    [INFO]: Aircraft loaded: 'C:\Games\MSFS\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Mon Apr 24 14:51:14 2023    [INFO]: Aircraft loaded: 'C:\Games\MSFS\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Mon Apr 24 14:51:14 2023    [INFO]: Flight loaded: 'C:\Users\Dmytro\AppData\Roaming\Microsoft Flight Simulator\MISSIONS\Custom\CustomFlight\CustomFlight.FLT'
+Mon Apr 24 14:53:21 2023    [INFO]: 0 hvars loaded for aircraft 'Douglas DC-3 BLUE STRIPE'
+Mon Apr 24 14:53:21 2023    [INFO]: 214 LVARS found, created 2 Client Data Areas
+Mon Apr 24 14:53:21 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 0
+Mon Apr 24 14:53:21 2023    [INFO]: Lvar values CDA with id=4 mapped to name FSUIPC_lvalues0 [requestId=40]
+Mon Apr 24 14:53:21 2023    [INFO]: Lvar values Client data definition 4 added [requestID=41]
+Mon Apr 24 14:53:21 2023    [INFO]: Lvar values CDA created with id=4, (size=8192 for 1024 values), mapped to name FSUIPC_lvalues0 [requestId=42]
+Mon Apr 24 14:53:21 2023    [INFO]: 214 lvars loaded for aircraft 'Douglas DC-3 BLUE STRIPE'
+Mon Apr 24 14:54:34 2023    [INFO]: New lvars detected: 219 lvars detected (was 214): reloading...
+Mon Apr 24 14:54:34 2023    [INFO]: 219 LVARS found, created 2 Client Data Areas
+Mon Apr 24 14:54:34 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Mon Apr 24 14:54:38 2023    [INFO]: New lvars detected: 222 lvars detected (was 219): reloading...
+Mon Apr 24 14:54:38 2023    [INFO]: 222 LVARS found, created 2 Client Data Areas
+Mon Apr 24 14:54:38 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Mon Apr 24 16:33:32 2023    [INFO]: New lvars detected: 223 lvars detected (was 222): reloading...
+Mon Apr 24 16:33:32 2023    [INFO]: 223 LVARS found, created 2 Client Data Areas
+Mon Apr 24 16:33:32 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Mon Apr 24 16:37:28 2023   [ERROR]: Error clearing data definition with id=14
+Mon Apr 24 16:37:28 2023   [ERROR]: Error clearing data definition with id=18
+Mon Apr 24 16:37:28 2023   [ERROR]: Error clearing config data definition
+Mon Apr 24 16:37:28 2023  [ALWAYS]: <=============================== END OF PROGRAM ===============================>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYVR to S50</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>2500</CruisingAlt>
+        <DepartureID>CYVR</DepartureID>
+        <DepartureLLA>N49° 11' 54.92",W123° 10' 26.17",+000009.00</DepartureLLA>
+        <DestinationID>S50</DestinationID>
+        <DestinationLLA>N47° 19' 39.45",W122° 13' 35.95",+000059.00</DestinationLLA>
+        <Descr>CYVR, S50</Descr>
+        <DeparturePosition>GATE 20</DeparturePosition>
+        <DepartureName>Vancouver Intl</DepartureName>
+        <DestinationName>Auburn Mun</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYVR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49° 11' 40.90",W123° 11' 2.28",+000009.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYVR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="S50">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 19' 39.45",W122° 13' 35.95",+000059.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>S50</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

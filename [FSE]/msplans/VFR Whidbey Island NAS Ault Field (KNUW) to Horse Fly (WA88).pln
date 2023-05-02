@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KNUW to WA88</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>3500</CruisingAlt>
+        <DepartureID>KNUW</DepartureID>
+        <DepartureLLA>N48° 20' 31.88",W122° 38' 55.28",+000032.00</DepartureLLA>
+        <DestinationID>WA88</DestinationID>
+        <DestinationLLA>N48° 53' 34.39",W122° 33' 24.62",+000070.00</DestinationLLA>
+        <Descr>KNUW, WA88</Descr>
+        <DeparturePosition>32</DeparturePosition>
+        <DepartureName>Whidbey Island NAS /Ault Field</DepartureName>
+        <DestinationName>Horse Fly</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KNUW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 21' 6.61",W122° 39' 21.46",+000032.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KNUW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="Cross WA88">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 53' 31.33",W122° 35' 49.67",+001025.49</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WA88">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 53' 34.39",W122° 33' 24.62",+000070.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>WA88</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

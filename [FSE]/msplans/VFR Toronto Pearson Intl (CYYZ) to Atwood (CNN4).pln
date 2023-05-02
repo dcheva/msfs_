@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYYZ to CNN4</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>CYYZ</DepartureID>
+        <DepartureLLA>N43° 40' 15.63",W79° 36' 53.28",+000546.00</DepartureLLA>
+        <DestinationID>CNN4</DestinationID>
+        <DestinationLLA>N43° 41' 39.01",W81° 0' 9.01",+001232.00</DestinationLLA>
+        <Descr>CYYZ, CNN4</Descr>
+        <DeparturePosition>33R</DeparturePosition>
+        <DepartureName>Toronto/Pearson Intl</DepartureName>
+        <DestinationName>Atwood</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYYZ">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 40' 33.86",W79° 37' 49.72",+000546.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYYZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SYKMA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N43° 45' 30.01",W79° 52' 35.99",+004500.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>CY</ICAORegion>
+                <ICAOIdent>SYKMA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CNN4">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 41' 39.01",W81° 0' 9.01",+001232.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CNN4</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

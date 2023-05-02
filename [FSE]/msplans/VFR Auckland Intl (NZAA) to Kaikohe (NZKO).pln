@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>NZAA to NZKO</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>2500</CruisingAlt>
+        <DepartureID>NZAA</DepartureID>
+        <DepartureLLA>S37° 0' 24.27",E174° 48' 19.57",+000019.00</DepartureLLA>
+        <DestinationID>NZKO</DestinationID>
+        <DestinationLLA>S35° 26' 59.92",E173° 48' 57.19",+000550.00</DestinationLLA>
+        <Descr>NZAA, NZKO</Descr>
+        <DeparturePosition>23L</DeparturePosition>
+        <DepartureName>Auckland Intl</DepartureName>
+        <DestinationName>Kaikohe</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="NZAA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S37° 0' 29.00",E174° 47' 30.02",+000019.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZAA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KAURI">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S37° 2' 16.81",E174° 41' 31.15",+001758.54</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>KAURI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>S36° 47' 12.45",E174° 37' 52.47",+002500.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>WP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="VEGTA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S36° 29' 35.01",E174° 33' 8.53",+002500.00</WorldPosition>
+            <ATCAirway>KQ528</ATCAirway>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>VEGTA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WELLS">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S36° 17' 38.83",E174° 29' 57.64",+002500.00</WorldPosition>
+            <ATCAirway>KQ528</ATCAirway>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>WELLS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TANIG">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S35° 49' 9.14",E174° 1' 48.87",+002500.00</WorldPosition>
+            <ATCAirway>KQ613</ATCAirway>
+            <ICAO>
+                <ICAORegion>NZ</ICAORegion>
+                <ICAOIdent>TANIG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZKO">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S35° 26' 59.92",E173° 48' 57.19",+000550.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>NZKO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

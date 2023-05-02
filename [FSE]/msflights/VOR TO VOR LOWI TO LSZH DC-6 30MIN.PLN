@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Innsbruck to Zurich</Title>
+        <FPType>VFR</FPType>
+        <RouteType>VOR</RouteType>
+        <CruisingAlt>13200.000</CruisingAlt>
+        <DepartureID>LOWI</DepartureID>
+        <DepartureLLA>N47° 15' 36.75",E11° 20' 38.33",+001900.50</DepartureLLA>
+        <DestinationID>LSZH</DestinationID>
+        <DestinationLLA>N47° 27' 29.00",E8° 32' 53.00",+001400.00</DestinationLLA>
+        <Descr>Innsbruck to Zurich</Descr>
+        <DeparturePosition>26</DeparturePosition>
+        <DepartureName>Innsbruck</DepartureName>
+        <DestinationName>Zurich</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LOWI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 15' 36.75",E11° 20' 38.33",+001900.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LOWI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECLIMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 15' 13.46",E11° 17' 2.27",+002500.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="KPT">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N47° 44' 44.81",E10° 20' 59.40",+012100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>ED</ICAORegion>
+                <ICAOIdent>KPT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 43' 51.17",E10° 11' 0.67",+013200.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 42' 27.54",E9° 55' 46.08",+013200.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FHD">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N47° 40' 3.07",E9° 30' 18.16",+009750.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>ED</ICAORegion>
+                <ICAOIdent>FHD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ZUE">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N47° 35' 31.80",E8° 49' 3.60",+004100.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>LS</ICAORegion>
+                <ICAOIdent>ZUE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LSZH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 27' 29.00",E8° 32' 53.00",+001400.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LSZH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

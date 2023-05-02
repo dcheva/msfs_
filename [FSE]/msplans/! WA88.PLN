@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Horse Fly to Horse Fly</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>6000.000</CruisingAlt>
+        <DepartureID>WA88</DepartureID>
+        <DepartureLLA>N48° 53' 34.40",W122° 33' 24.61",+000050.00</DepartureLLA>
+        <DestinationID>WA88</DestinationID>
+        <DestinationLLA>N48° 53' 34.40",W122° 33' 24.61",+000050.00</DestinationLLA>
+        <Descr>Horse Fly to Horse Fly</Descr>
+        <DeparturePosition>7</DeparturePosition>
+        <DepartureName>Horse Fly</DepartureName>
+        <DestinationName>Horse Fly</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="WA88">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 53' 34.40",W122° 33' 24.61",+000050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <RunwayNumberFP>7</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>WA88</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CFFVP">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N48° 53' 42.65",W122° 35' 19.29",+003500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>K1</ICAORegion>
+                <ICAOIdent>CFFVP</ICAOIdent>
+                <ICAOAirport>KBLI</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="VOLON">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N48° 55' 8.49",W122° 32' 45.86",+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>K1</ICAORegion>
+                <ICAOIdent>VOLON</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WUGUT">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N48° 53' 43.01",W122° 32' 16.53",+001800.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>K1</ICAORegion>
+                <ICAOIdent>WUGUT</ICAOIdent>
+                <ICAOAirport>KBLI</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WA88">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 53' 34.40",W122° 33' 24.61",+000050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>WA88</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

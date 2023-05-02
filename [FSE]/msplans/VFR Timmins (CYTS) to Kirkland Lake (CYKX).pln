@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYTS to CYKX</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>CYTS</DepartureID>
+        <DepartureLLA>N48° 34' 3.70",W81° 22' 14.40",+000960.00</DepartureLLA>
+        <DestinationID>CYKX</DestinationID>
+        <DestinationLLA>N48° 12' 36.94",W79° 58' 52.52",+001146.00</DestinationLLA>
+        <Descr>CYTS, CYKX</Descr>
+        <DeparturePosition>PARKING 68</DeparturePosition>
+        <DepartureName>Timmins</DepartureName>
+        <DestinationName>Kirkland Lake</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYTS">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 34' 14.37",W81° 22' 35.91",+000960.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYTS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KEBMA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N48° 34' 14.37",W81° 22' 35.91",+000960.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>CY</ICAORegion>
+                <ICAOIdent>KEBMA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="STAFE">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N48° 27' 0.30",W81° 4' 21.61",+004500.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>CY</ICAORegion>
+                <ICAOIdent>STAFE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYKX">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 12' 36.94",W79° 58' 52.52",+001146.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYKX</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

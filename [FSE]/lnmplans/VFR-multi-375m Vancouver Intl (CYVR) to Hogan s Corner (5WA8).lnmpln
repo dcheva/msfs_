@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>5500</CruisingAlt>
+      <CreationDate>2023-04-26T15:57:42+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <Type>C172</Type>
+      <Name>Example Performance Profile</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="-123.024704" Lat="48.525959" Alt="92.00"/>
+      <Start>16</Start>
+      <Type>Runway</Type>
+      <Heading>176.989</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Friday Harbor Airport</Name>
+        <Ident>KFHR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-123.025085" Lat="48.522915" Alt="92.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Frontier Airpark</Name>
+        <Ident>WN53</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.062836" Lat="48.110424" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Vantage</Name>
+        <Ident>WA68</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-119.986771" Lat="46.935062" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Seattle-Tacoma Intl</Name>
+        <Ident>KSEA</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.309311" Lat="47.448997" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Auburn Mun</Name>
+        <Ident>S50</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.226654" Lat="47.327625" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Hogan's Corner</Name>
+        <Ident>5WA8</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-124.145729" Lat="47.042866" Alt="50.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

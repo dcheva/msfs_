@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>7500</CruisingAlt>
+      <CreationDate>2023-04-25T08:41:00+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <Type>C172</Type>
+      <Name>Example Performance Profile</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Yorkton</Name>
+        <Ident>CYQV</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-102.461319" Lat="51.264725" Alt="1613.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>MUTUR</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-102.461319" Lat="51.264805" Alt="1614.53"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>DURUR</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-104.889709" Lat="50.667007" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>LIBOS</Ident>
+        <Region>CY</Region>
+        <Airway>T797</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-109.000000" Lat="50.812500" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>RABOX</Ident>
+        <Region>CY</Region>
+        <Airway>T797</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-111.927505" Lat="51.090557" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>SESDA</Ident>
+        <Region>CY</Region>
+        <Airway>T797</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-113.218056" Lat="51.187778" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>VETBI</Ident>
+        <Region>CY</Region>
+        <Airway>T797</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-113.423607" Lat="51.202221" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>SIMTA</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-114.790276" Lat="51.041668" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WELLF</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-116.601700" Lat="50.908154" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>RAGUT</Ident>
+        <Region>CY</Region>
+        <Airway>T713</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-117.483261" Lat="50.827042" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ALSED</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-118.583336" Lat="50.299999" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Kelowna</Name>
+        <Ident>LW</Ident>
+        <Region>CY</Region>
+        <Type>NDB</Type>
+        <Pos Lon="-119.416382" Lat="50.060863" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WHORT</Ident>
+        <Region>CY</Region>
+        <Airway>B13</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-120.363327" Lat="49.741669" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>THYNE</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-120.759171" Lat="49.616386" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>SENSA</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-121.424164" Lat="49.386520" Alt="7500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>XOPRO</Ident>
+        <Region>CY</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-122.173325" Lat="49.090508" Alt="6770.21"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ITGIL</Ident>
+        <Region>K1</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="-122.427979" Lat="48.934277" Alt="2025.52"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Horse Fly</Name>
+        <Ident>WA88</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.556839" Lat="48.892887" Alt="70.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

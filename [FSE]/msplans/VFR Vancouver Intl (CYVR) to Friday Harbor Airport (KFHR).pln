@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYVR to KFHR</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>3500</CruisingAlt>
+        <DepartureID>CYVR</DepartureID>
+        <DepartureLLA>N49° 12' 3.34",W123° 9' 48.73",+000009.00</DepartureLLA>
+        <DestinationID>KFHR</DestinationID>
+        <DestinationLLA>N48° 31' 22.49",W123° 1' 30.31",+000092.00</DestinationLLA>
+        <Descr>CYVR, KFHR</Descr>
+        <DeparturePosition>26R</DeparturePosition>
+        <DepartureName>Vancouver Intl</DepartureName>
+        <DestinationName>Friday Harbor Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYVR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49° 11' 40.90",W123° 11' 2.28",+000009.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYVR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KFHR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 31' 22.49",W123° 1' 30.31",+000092.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KFHR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

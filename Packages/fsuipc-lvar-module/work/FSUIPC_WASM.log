@@ -1,0 +1,44 @@
+Mon Apr 24 19:54:06 2023  [ALWAYS]: <=============================== START OF PROGRAM ===============================>
+Mon Apr 24 19:54:06 2023  [ALWAYS]: **** WASM version is 1.0.2 ****
+Mon Apr 24 19:54:06 2023    [INFO]: Ini file loaded from add-on package
+Mon Apr 24 19:54:06 2023    [INFO]: No ini file found in persistant storage at '\work\FSUIPC_WASM.ini'
+Mon Apr 24 19:54:06 2023  [ALWAYS]: lvarUpdateFrequency = 4
+Mon Apr 24 19:54:06 2023  [ALWAYS]: lvarScanDelay = 5
+Mon Apr 24 19:54:06 2023  [ALWAYS]: lvarScanFrequency = -2
+Mon Apr 24 19:54:06 2023  [ALWAYS]: useAirLocForHvars = 0
+Mon Apr 24 19:54:06 2023  [ALWAYS]: Maximum number of lvars/hvars per Client Data Area is 146
+Mon Apr 24 19:54:06 2023    [INFO]: Config Client Data Area mapped to ID 1
+Mon Apr 24 19:54:06 2023    [INFO]: Data Definition 1 added for Config Client Data Area definition
+Mon Apr 24 19:54:06 2023    [INFO]: Config Client Data Area created.
+Mon Apr 24 19:54:06 2023    [INFO]: Lvar Value Client Data Area mapped to ID 2
+Mon Apr 24 19:54:06 2023    [INFO]: Data Definition 2 added for Lvar Set Request Client Data Area definition
+Mon Apr 24 19:54:06 2023    [INFO]: Lvar Value Client Data Area created.
+Mon Apr 24 19:54:06 2023    [INFO]: Calculator Code Client Data Area mapped to ID 3
+Mon Apr 24 19:54:06 2023    [INFO]: Data Definition 3 added for Lvar Set Request Client Data Area definition
+Mon Apr 24 19:54:06 2023    [INFO]: Exec Calculator Code Client Data Area created.
+Mon Apr 24 19:54:32 2023    [INFO]: Aircraft loaded: 'C:\Games\MSFS\Official\Steam\microsoft-aircraft-dc3\SimObjects\Airplanes\douglas-dc3\aircraft.CFG'
+Mon Apr 24 19:54:32 2023    [INFO]: Flight loaded: 'flights\other\MainMenu.FLT'
+Mon Apr 24 19:57:20 2023    [INFO]: Aircraft loaded: 'C:\Games\MSFS\Official\Steam\microsoft-aircraft-g-21\SimObjects\Airplanes\microsoft-aircraft-g-21\aircraft.CFG'
+Mon Apr 24 19:57:20 2023    [INFO]: Aircraft loaded: 'C:\Games\MSFS\Official\Steam\microsoft-aircraft-g-21\SimObjects\Airplanes\microsoft-aircraft-g-21\aircraft.CFG'
+Mon Apr 24 19:57:25 2023    [INFO]: Aircraft loaded: 'C:\Games\MSFS\Official\Steam\microsoft-aircraft-g-21\SimObjects\Airplanes\microsoft-aircraft-g-21\aircraft.CFG'
+Mon Apr 24 19:57:25 2023    [INFO]: Flight loaded: 'C:\Users\Dmytro\AppData\Roaming\Microsoft Flight Simulator\MISSIONS\Custom\CustomFlight\CustomFlight.FLT'
+Mon Apr 24 19:58:25 2023    [INFO]: 0 hvars loaded for aircraft 'Grumman Goose Aviators Club'
+Mon Apr 24 19:58:25 2023    [INFO]: 229 LVARS found, created 2 Client Data Areas
+Mon Apr 24 19:58:25 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 0
+Mon Apr 24 19:58:25 2023    [INFO]: Lvar values CDA with id=4 mapped to name FSUIPC_lvalues0 [requestId=40]
+Mon Apr 24 19:58:25 2023    [INFO]: Lvar values Client data definition 4 added [requestID=41]
+Mon Apr 24 19:58:25 2023    [INFO]: Lvar values CDA created with id=4, (size=8192 for 1024 values), mapped to name FSUIPC_lvalues0 [requestId=42]
+Mon Apr 24 19:58:25 2023    [INFO]: 229 lvars loaded for aircraft 'Grumman Goose Aviators Club'
+Mon Apr 24 19:58:36 2023    [INFO]: New lvars detected: 234 lvars detected (was 229): reloading...
+Mon Apr 24 19:58:36 2023    [INFO]: 234 LVARS found, created 2 Client Data Areas
+Mon Apr 24 19:58:36 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Mon Apr 24 20:07:42 2023    [INFO]: New lvars detected: 235 lvars detected (was 234): reloading...
+Mon Apr 24 20:07:42 2023    [INFO]: 235 LVARS found, created 2 Client Data Areas
+Mon Apr 24 20:07:42 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Mon Apr 24 20:09:40 2023    [INFO]: New lvars detected: 238 lvars detected (was 235): reloading...
+Mon Apr 24 20:09:40 2023    [INFO]: 238 LVARS found, created 2 Client Data Areas
+Mon Apr 24 20:09:40 2023    [INFO]: Need 1 CDAs to hold lvar values, currently have 1
+Mon Apr 24 20:21:01 2023   [ERROR]: Error clearing data definition with id=14
+Mon Apr 24 20:21:01 2023   [ERROR]: Error clearing data definition with id=18
+Mon Apr 24 20:21:01 2023   [ERROR]: Error clearing config data definition
+Mon Apr 24 20:21:01 2023  [ALWAYS]: <=============================== END OF PROGRAM ===============================>

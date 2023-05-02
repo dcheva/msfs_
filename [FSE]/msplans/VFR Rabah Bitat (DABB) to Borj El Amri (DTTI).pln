@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>DABB to DTTI</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>DABB</DepartureID>
+        <DepartureLLA>N36° 49' 9.82",E7° 48' 42.13",+000011.00</DepartureLLA>
+        <DestinationID>DTTI</DestinationID>
+        <DestinationLLA>N36° 43' 16.00",E9° 56' 36.00",+000108.00</DestinationLLA>
+        <Descr>DABB, DTTI</Descr>
+        <DeparturePosition>PARKING 1</DeparturePosition>
+        <DepartureName>Rabah Bitat</DepartureName>
+        <DestinationName>Borj El Amri</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="DABB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 49' 20.01",E7° 48' 34.00",+000011.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DABB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DTTI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 43' 16.00",E9° 56' 36.00",+000108.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LSGS to LFSB</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>10500</CruisingAlt>
+        <DepartureID>LSGS</DepartureID>
+        <DepartureLLA>N46° 13' 14.97",E7° 20' 27.14",+001578.00</DepartureLLA>
+        <DestinationID>LFSB</DestinationID>
+        <DestinationLLA>N47° 35' 24.00",E7° 31' 45.00",+000877.00</DestinationLLA>
+        <Descr>LSGS, LFSB</Descr>
+        <DeparturePosition>PARKING 85</DeparturePosition>
+        <DepartureName>Sion</DepartureName>
+        <DestinationName>Basel Mulhouse Freiburg</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LSGS">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 13' 9.00",E7° 19' 37.00",+001578.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LSGS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW25">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 13' 19.20",E7° 20' 21.90",+001578.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW253">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N46° 12' 26.05",E7° 16' 13.39",+002599.55</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="R235J">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N46° 7' 11.10",E7° 5' 32.98",+005688.60</WorldPosition>
+            <ICAO>
+                <ICAORegion>LS</ICAORegion>
+                <ICAOIdent>R235J</ICAOIdent>
+                <ICAOAirport>LSGS</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SOSAL">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N46° 33' 29.00",E6° 53' 4.00",+010500.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LS</ICAORegion>
+                <ICAOIdent>SOSAL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SL33">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N47° 29' 20.02",E7° 36' 2.80",+002850.73</WorldPosition>
+            <ICAO>
+                <ICAORegion>LF</ICAORegion>
+                <ICAOIdent>SL33</ICAOIdent>
+                <ICAOAirport>LFSB</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LFSB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 35' 24.00",E7° 31' 45.00",+000877.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LFSB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

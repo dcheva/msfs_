@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYYZ to CYTR</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>CYYZ</DepartureID>
+        <DepartureLLA>N43° 39' 30.60",W79° 37' 18.00",+000546.00</DepartureLLA>
+        <DestinationID>CYTR</DestinationID>
+        <DestinationLLA>N44° 7' 8.00",W77° 31' 40.99",+000280.00</DestinationLLA>
+        <Descr>CYYZ, CYTR</Descr>
+        <DeparturePosition>6R</DeparturePosition>
+        <DepartureName>Toronto/Pearson Intl</DepartureName>
+        <DestinationName>Trenton</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYYZ">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 40' 33.86",W79° 37' 49.72",+000546.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYYZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYTR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 7' 8.00",W77° 31' 40.99",+000280.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYTR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

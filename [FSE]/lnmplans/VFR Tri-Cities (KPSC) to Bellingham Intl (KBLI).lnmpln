@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>5500</CruisingAlt>
+      <CreationDate>2023-04-23T20:47:18+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>V35.lnmperf</FilePath>
+      <Type>DC3</Type>
+      <Name>Douglas DC-3</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Tri-Cities</Name>
+        <Ident>KPSC</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-119.119026" Lat="46.264679" Alt="403.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Quincy Mun</Name>
+        <Ident>80T</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-119.839836" Lat="47.211613" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Chelan Mun</Name>
+        <Ident>S10</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-119.942703" Lat="47.866013" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Bellingham Intl</Name>
+        <Ident>KBLI</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.537529" Lat="48.792694" Alt="167.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

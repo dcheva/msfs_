@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>2S2 to KLMT</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>8000</CruisingAlt>
+        <DepartureID>2S2</DepartureID>
+        <DepartureLLA>N43° 7' 18.85",W121° 48' 39.86",+004638.00</DepartureLLA>
+        <DestinationID>KLMT</DestinationID>
+        <DestinationLLA>N42° 9' 22.12",W121° 43' 59.55",+004095.00</DestinationLLA>
+        <Descr>2S2, KLMT</Descr>
+        <DeparturePosition>36</DeparturePosition>
+        <DepartureName>Beaver Marsh State</DepartureName>
+        <DestinationName>Crater Lake-Klamath Rgnl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="2S2">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 7' 39.10",W121° 48' 31.40",+004638.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>2S2</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="MZAMA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N42° 2' 25.14",W121° 40' 16.80",+008000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>K1</ICAORegion>
+                <ICAOIdent>MZAMA</ICAOIdent>
+                <ICAOAirport>KLMT</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KLMT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 9' 22.12",W121° 43' 59.55",+004095.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KLMT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

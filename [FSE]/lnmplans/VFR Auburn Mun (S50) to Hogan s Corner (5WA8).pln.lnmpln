@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>6000</CruisingAlt>
+      <CreationDate>2023-04-27T01:00:41+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <FilePath>DeHavilland DHC-4 Caribou.lnmperf</FilePath>
+      <Type>DHC4</Type>
+      <Name>DeHavilland DHC-4 Caribou</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Auburn Mun</Name>
+        <Ident>S50</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.226654" Lat="47.327625" Alt="59.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Seattle-Tacoma Intl</Name>
+        <Ident>KSEA</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-122.309311" Lat="47.448997" Alt="2784.68"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Hogan's Corner</Name>
+        <Ident>5WA8</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-124.145729" Lat="47.042866" Alt="50.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

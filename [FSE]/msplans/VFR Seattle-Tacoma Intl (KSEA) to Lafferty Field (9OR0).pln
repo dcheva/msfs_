@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KSEA to 9OR0</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>9000</CruisingAlt>
+        <DepartureID>KSEA</DepartureID>
+        <DepartureLLA>N47° 27' 48.82",W122° 19' 4.36",+000433.00</DepartureLLA>
+        <DestinationID>9OR0</DestinationID>
+        <DestinationLLA>N44° 18' 54.45",W123° 1' 29.32",+000360.00</DestinationLLA>
+        <Descr>KSEA, 9OR0</Descr>
+        <DeparturePosition>16R</DeparturePosition>
+        <DepartureName>Seattle-Tacoma Intl</DepartureName>
+        <DestinationName>Lafferty Field</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KSEA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 26' 56.39",W122° 18' 33.52",+000433.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KSEA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KKLS">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 7' 4.80",W122° 53' 54.10",+009000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KKLS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="S39">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 17' 16.29",W120° 54' 19.78",+009000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>S39</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KBDN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 5' 40.43",W121° 12' 0.81",+009000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KBDN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="5S0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 45' 9.21",W122° 30' 16.29",+009000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>5S0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="9OR0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 18' 54.45",W123° 1' 29.32",+000360.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>9OR0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

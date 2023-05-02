@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EDVE to EDVK</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>3000</CruisingAlt>
+        <DepartureID>EDVE</DepartureID>
+        <DepartureLLA>N52° 19' 12.99",E10° 34' 30.87",+000296.00</DepartureLLA>
+        <DestinationID>EDVK</DestinationID>
+        <DestinationLLA>N51° 25' 14.96",E9° 23' 31.63",+000851.00</DestinationLLA>
+        <Descr>EDVE, EDVK</Descr>
+        <DeparturePosition>26</DeparturePosition>
+        <DepartureName>Braunschweig</DepartureName>
+        <DestinationName>Airport Kassel-Calden</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EDVE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 19' 9.71",E10° 33' 32.04",+000296.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EDVE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="VK160">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N51° 25' 43.28",E9° 14' 39.17",+003000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>ED</ICAORegion>
+                <ICAOIdent>VK160</ICAOIdent>
+                <ICAOAirport>EDVK</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="EDVK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 25' 14.96",E9° 23' 31.63",+000851.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EDVK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

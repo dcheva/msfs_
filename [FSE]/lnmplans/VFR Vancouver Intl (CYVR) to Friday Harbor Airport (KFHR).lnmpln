@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>3500</CruisingAlt>
+      <CreationDate>2023-04-26T01:52:56+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData>MSFS</NavData>
+    <AircraftPerformance>
+      <Type>DC3</Type>
+      <Name>DC-3</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Vancouver Intl</Name>
+        <Ident>CYVR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-123.183968" Lat="49.194695" Alt="9.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Friday Harbor Airport</Name>
+        <Ident>KFHR</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="-123.025085" Lat="48.522915" Alt="92.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

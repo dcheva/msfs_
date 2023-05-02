@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>DABB to DTTB</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>DABB</DepartureID>
+        <DepartureLLA>N36° 49' 9.82",E7° 48' 42.13",+000011.00</DepartureLLA>
+        <DestinationID>DTTB</DestinationID>
+        <DestinationLLA>N37° 14' 40.92",E9° 47' 33.92",+000016.00</DestinationLLA>
+        <Descr>DABB, DTTB</Descr>
+        <DeparturePosition>PARKING 1</DeparturePosition>
+        <DepartureName>Rabah Bitat</DepartureName>
+        <DestinationName>Sidi Ahmed Air Base</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="DABB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 49' 20.01",E7° 48' 34.00",+000011.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DABB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW36">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 49' 5.78",E7° 48' 31.49",+000011.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW363">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 52' 4.47",E7° 48' 58.51",+001592.87</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="DTTI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 43' 16.00",E9° 56' 36.00",+004500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="FI01">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N36° 44' 39.83",E10° 11' 53.23",+004500.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>DT</ICAORegion>
+                <ICAOIdent>FI01</ICAOIdent>
+                <ICAOAirport>DTTA</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DTTA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N36° 51' 4.00",E10° 13' 37.00",+004500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DTTB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 14' 40.92",E9° 47' 33.92",+000016.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DTTB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

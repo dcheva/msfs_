@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYYJ to 9OR0</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>7500</CruisingAlt>
+        <DepartureID>CYYJ</DepartureID>
+        <DepartureLLA>N48° 39' 6.90",W123° 25' 58.52",+000064.00</DepartureLLA>
+        <DestinationID>9OR0</DestinationID>
+        <DestinationLLA>N44° 18' 54.45",W123° 1' 29.32",+000360.00</DestinationLLA>
+        <Descr>CYYJ, 9OR0</Descr>
+        <DeparturePosition>14</DeparturePosition>
+        <DepartureName>Victoria Intl</DepartureName>
+        <DestinationName>Lafferty Field</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYYJ">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 38' 49.99",W123° 25' 33.00",+000064.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYYJ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW14">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 39' 11.49",W123° 26' 2.20",+000064.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="RW143">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48° 36' 32.45",W123° 23' 54.65",+001154.59</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="KOLM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46° 58' 9.86",W122° 54' 9.15",+007500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KOLM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="5S0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 45' 9.21",W122° 30' 16.29",+007500.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>5S0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="9OR0">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 18' 54.45",W123° 1' 29.32",+000360.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>9OR0</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

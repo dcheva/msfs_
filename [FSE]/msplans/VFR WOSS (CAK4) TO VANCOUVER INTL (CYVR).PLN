@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CAK4 to CYVR</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>6500.000</CruisingAlt>
+        <DepartureID>CAK4</DepartureID>
+        <DepartureLLA>N50° 12' 47.97",W126° 36' 54.35",+000415.00</DepartureLLA>
+        <DestinationID>CYVR</DestinationID>
+        <DestinationLLA>N49° 11' 40.90",W123° 11' 2.28",+000009.00</DestinationLLA>
+        <Descr>CAK4, CYVR</Descr>
+        <DeparturePosition>29</DeparturePosition>
+        <DepartureName>Woss</DepartureName>
+        <DestinationName>Vancouver Intl</DestinationName>
+        <AlternateName>AlternateName</AlternateName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="Woss">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N50° 12' 57.09",W126° 37' 14.23",+000414.59</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>CAK4</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECLIMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50° 11' 21.43",W126° 33' 45.93",+001000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 47' 47.92",W125° 10' 18.54",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 35' 38.94",W124° 29' 5.63",+006500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEAPPROACH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49° 10' 34.14",W123° 5' 8.28",+000800.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="Vancouver Intl">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49° 11' 40.91",W123° 11' 2.29",+000008.66</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>CYVR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

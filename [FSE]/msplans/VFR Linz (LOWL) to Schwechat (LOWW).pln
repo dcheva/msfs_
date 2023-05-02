@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LOWL to LOWW</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>4000</CruisingAlt>
+        <DepartureID>LOWL</DepartureID>
+        <DepartureLLA>N48° 13' 57.52",E14° 10' 16.00",+000980.00</DepartureLLA>
+        <DestinationID>LOWW</DestinationID>
+        <DestinationLLA>N48° 6' 37.00",E16° 34' 10.98",+000600.00</DestinationLLA>
+        <Descr>LOWL, LOWW</Descr>
+        <DeparturePosition>8</DeparturePosition>
+        <DepartureName>Linz</DepartureName>
+        <DestinationName>Schwechat</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LOWL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 14' 7.00",E14° 11' 17.00",+000980.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LOWL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TUN">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N48° 18' 33.60",E15° 58' 46.92",+004000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LO</ICAORegion>
+                <ICAOIdent>TUN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LOWW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 6' 36.99",E16° 34' 11.00",+000600.00</WorldPosition>
+            <RunwayNumberFP>34</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LOWW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
