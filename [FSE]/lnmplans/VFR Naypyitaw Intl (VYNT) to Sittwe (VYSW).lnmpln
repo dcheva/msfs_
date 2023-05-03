@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>5500</CruisingAlt>
+      <CreationDate>2023-05-03T15:45:06+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Douglas DC-3 Bare Metal Emerald.lnmperf</FilePath>
+      <Type>DC3C</Type>
+      <Name>Douglas DC-3 Bare Metal Emerald</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Naypyitaw Intl</Name>
+        <Ident>VYNT</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="96.201019" Lat="19.623550" Alt="295.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Naypyitaw Intl</Name>
+        <Ident>NPT</Ident>
+        <Region>VY</Region>
+        <Type>VOR</Type>
+        <Pos Lon="96.195580" Lat="19.626556" Alt="461.85"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Ann</Name>
+        <Ident>AN</Ident>
+        <Region>VY</Region>
+        <Type>NDB</Type>
+        <Pos Lon="94.029381" Lat="19.770008" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Sittwe</Name>
+        <Ident>VYSW</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="92.872650" Lat="20.132774" Alt="39.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

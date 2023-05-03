@@ -2,7 +2,7 @@
 <LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmperf.xsd">
   <AircraftPerf>
     <Header>
-      <CreationDate>2023-05-03T13:26:05+03:00</CreationDate>
+      <CreationDate>2023-05-03T13:20:26+03:00</CreationDate>
       <FileVersion>1.0</FileVersion>
       <ProgramName>Little Navmap</ProgramName>
       <ProgramVersion>2.8.10</ProgramVersion>
@@ -12,9 +12,9 @@
       <Name>Example Performance Profile</Name>
       <AircraftType>C172</AircraftType>
       <Simulator></Simulator>
-      <Description>ui_max_range=1200          ; @200 kts | 1600 @180kts (85%) | 1800 @160kts (75%)
-ui_autonomy=6              ; @200 kts | 9                  | 11
-ui_fuel_burn_rate=150      ; @200 kts | 100                | 80icao_airline=&quot;&quot;
+      <Description>ui_max_range=1200         ; @200 kts | 1600 @180kts (85%) | 1800 @160kts (75%)
+ui_autonomy=6                ; @200 kts | 9                  | 11
+ui_fuel_burn_rate=150      ; @200 kts | 100                | 80
 </Description>
       <FuelAsVolume>1</FuelAsVolume>
       <JetFuel>0</JetFuel>
@@ -41,9 +41,9 @@ ui_fuel_burn_rate=150      ; @200 kts | 100                | 80icao_airline=&quo
         <SpeedKtsTAS>180.000</SpeedKtsTAS>
       </Cruise>
       <Descent>
-        <FuelFlowLbsGalPerHour>5.000</FuelFlowLbsGalPerHour>
-        <SpeedKtsTAS>120.000</SpeedKtsTAS>
-        <VertSpeedFtPerMin>1000.000</VertSpeedFtPerMin>
+        <FuelFlowLbsGalPerHour>17.000</FuelFlowLbsGalPerHour>
+        <SpeedKtsTAS>130.000</SpeedKtsTAS>
+        <VertSpeedFtPerMin>800.000</VertSpeedFtPerMin>
       </Descent>
     </Perf>
   </AircraftPerf>

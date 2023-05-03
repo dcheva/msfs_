@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>VYNT to VYSW</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5500</CruisingAlt>
+        <DepartureID>VYNT</DepartureID>
+        <DepartureLLA>N19° 36' 30.87",E96° 12' 27.29",+000295.00</DepartureLLA>
+        <DestinationID>VYSW</DestinationID>
+        <DestinationLLA>N20° 7' 57.99",E92° 52' 21.54",+000039.00</DestinationLLA>
+        <Descr>VYNT, VYSW</Descr>
+        <DeparturePosition>34</DeparturePosition>
+        <DepartureName>Naypyitaw Intl</DepartureName>
+        <DestinationName>Sittwe</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="VYNT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N19° 37' 24.78",E96° 12' 3.67",+000295.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>VYNT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NPT">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N19° 37' 35.60",E96° 11' 44.09",+000461.85</WorldPosition>
+            <ICAO>
+                <ICAORegion>VY</ICAORegion>
+                <ICAOIdent>NPT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="AN">
+            <ATCWaypointType>NDB</ATCWaypointType>
+            <WorldPosition>N19° 46' 12.03",E94° 1' 45.77",+005500.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>VY</ICAORegion>
+                <ICAOIdent>AN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="VYSW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N20° 7' 57.99",E92° 52' 21.54",+000039.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>VYSW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
