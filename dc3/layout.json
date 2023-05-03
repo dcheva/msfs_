@@ -299,6 +299,104 @@
       "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/texture.metal/thumbnail_small.JPG",
       "size": 11539,
       "date": 133193926460000000
+    },
+
+
+
+
+
+
+
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL.xml",
+      "size": 12842,
+      "date": 133134361200000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD00.bin",
+      "size": 13119560,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD00.gltf",
+      "size": 691790,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD01.bin",
+      "size": 8609804,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD01.gltf",
+      "size": 511521,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD02.bin",
+      "size": 4991228,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD02.gltf",
+      "size": 393262,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD03.bin",
+      "size": 2303378,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD03.gltf",
+      "size": 317606,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD04.bin",
+      "size": 479284,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD04.gltf",
+      "size": 143878,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD05.bin",
+      "size": 273368,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD05.gltf",
+      "size": 83019,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD06.bin",
+      "size": 249692,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/dc3PAXL_LOD06.gltf",
+      "size": 60714,
+      "date": 133197199300000000
+    },
+    {
+      "path": "SimObjects/Airplanes/douglas-dc3-livery-metal/model.PAXL/model.CFG",
+      "size": 709,
+      "date": 133085869840000000
     }
-  ]
+
+
+
+
+
+
+
+
+
+ 
+
+ ]
 }
