@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LOWI to LFKC</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5500</CruisingAlt>
+        <DepartureID>LOWI</DepartureID>
+        <DepartureLLA>N47° 15' 28.63",E11° 20' 50.79",+001900.00</DepartureLLA>
+        <DestinationID>LFKC</DestinationID>
+        <DestinationLLA>N42° 31' 28.00",E8° 47' 35.02",+000210.00</DestinationLLA>
+        <Descr>LOWI, LFKC</Descr>
+        <DeparturePosition>PARKING NONE 1</DeparturePosition>
+        <DepartureName>Innsbruck</DepartureName>
+        <DestinationName>St Catherine</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LOWI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 15' 36.75",E11° 20' 38.32",+001900.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LOWI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="PAT">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N47° 12' 30.86",E11° 27' 36.93",+004501.04</WorldPosition>
+            <ICAO>
+                <ICAORegion>LO</ICAORegion>
+                <ICAOIdent>PAT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SAZ">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N44° 4' 31.99",E9° 56' 20.00",+005500.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LI</ICAORegion>
+                <ICAOIdent>SAZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="FA18">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N42° 42' 12.80",E8° 47' 32.20",+005279.31</WorldPosition>
+            <ICAO>
+                <ICAORegion>LF</ICAORegion>
+                <ICAOIdent>FA18</ICAOIdent>
+                <ICAOAirport>LFKC</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LFKC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 31' 28.00",E8° 47' 35.02",+000210.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LFKC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

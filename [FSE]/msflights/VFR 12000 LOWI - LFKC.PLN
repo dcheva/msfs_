@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LOWI to LFKC</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>5500.000</CruisingAlt>
+        <DepartureID>LOWI</DepartureID>
+        <DepartureLLA>N47° 15' 28.63",E11° 20' 50.79",+001900.00</DepartureLLA>
+        <DestinationID>LFKC</DestinationID>
+        <DestinationLLA>N42° 31' 28.00",E8° 47' 35.02",+000210.00</DestinationLLA>
+        <Descr>LOWI, LFKC</Descr>
+        <DeparturePosition>PARKING NONE 1 PARKING NONE</DeparturePosition>
+        <DepartureName>Innsbruck</DepartureName>
+        <DestinationName>St Catherine</DestinationName>
+        <AlternateName>AlternateName</AlternateName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="Innsbruck">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 15' 36.75",E11° 20' 38.33",+001900.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LOWI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECLIMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N47° 15' 13.46",E11° 17' 2.27",+002500.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="PAT">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N47° 12' 30.86",E11° 27' 36.93",+004050.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>LO</ICAORegion>
+                <ICAOIdent>PAT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45° 20' 19.20",E10° 31' 50.71",+005500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44° 21' 22.69",E10° 4' 5.17",+005500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="SAZ">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N44° 4' 32.00",E9° 56' 20.00",+004500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAORegion>LI</ICAORegion>
+                <ICAOIdent>SAZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="FA18">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 42' 12.80",E8° 47' 32.20",+003500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEAPPROACH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 28' 21.17",E8° 47' 35.61",+000750.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="St Catherine">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N42° 31' 28.00",E8° 47' 35.00",+000132.50</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+            <ICAO>
+                <ICAOIdent>LFKC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

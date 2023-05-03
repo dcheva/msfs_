@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>5500</CruisingAlt>
+      <CreationDate>2023-05-03T23:37:50+03:00</CreationDate>
+      <FileVersion>1.1</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>2.8.10</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="1801">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Douglas DC-3 Bare Metal Emerald.lnmperf</FilePath>
+      <Type>DC3C</Type>
+      <Name>Douglas DC-3 Bare Metal Emerald</Name>
+    </AircraftPerformance>
+    <Departure>
+      <Pos Lon="11.347443" Lat="47.257954" Alt="1900.00"/>
+      <Start>PARKING NONE 1</Start>
+      <Type>Parking</Type>
+      <Heading>306.116</Heading>
+    </Departure>
+    <Waypoints>
+      <Waypoint>
+        <Name>Innsbruck</Name>
+        <Ident>LOWI</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="11.343979" Lat="47.260208" Alt="1900.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Patscherkofel</Name>
+        <Ident>PAT</Ident>
+        <Region>LO</Region>
+        <Type>VOR</Type>
+        <Pos Lon="11.460258" Lat="47.208572" Alt="4501.04"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Sarzana</Name>
+        <Ident>SAZ</Ident>
+        <Region>LI</Region>
+        <Type>VOR</Type>
+        <Pos Lon="9.938889" Lat="44.075554" Alt="5500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>FA18</Ident>
+        <Region>LF</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="8.792277" Lat="42.703556" Alt="5279.31"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>St Catherine</Name>
+        <Ident>LFKC</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="8.793060" Lat="42.524445" Alt="210.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
