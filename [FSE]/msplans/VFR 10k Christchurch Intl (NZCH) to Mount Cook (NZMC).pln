@@ -15,8 +15,8 @@
         <DepartureName>Christchurch Intl</DepartureName>
         <DestinationName>Mount Cook</DestinationName>
         <AppVersion>
-            <AppVersionMajor>11</AppVersionMajor>
-            <AppVersionBuild>282174</AppVersionBuild>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61472</AppVersionBuild>
         </AppVersion>
         <ATCWaypoint id="NZCH">
             <ATCWaypointType>Airport</ATCWaypointType>
@@ -31,7 +31,6 @@
             <ICAO>
                 <ICAORegion>NZ</ICAORegion>
                 <ICAOIdent>IDUBU</ICAOIdent>
-                <ICAOAirport>NZCH</ICAOAirport>
             </ICAO>
         </ATCWaypoint>
         <ATCWaypoint id="NZGT">
