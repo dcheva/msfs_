@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		      <LOD minSize="120" ModelFile="dc3_PaxCargo_LOD00.gltf"/>    
+    <LOD minSize="80" ModelFile="dc3_PaxCargo_LOD01.gltf"/>
+    <LOD minSize="50" ModelFile="dc3_PaxCargo_LOD02.gltf"/>
+    <LOD minSize="20" ModelFile="dc3_PaxCargo_LOD03.gltf"/>
+    <LOD minSize="10" ModelFile="dc3_PaxCargo_LOD04.gltf"/>
+     <LOD minSize="3" ModelFile="dc3_PaxCargo_LOD05.gltf"/>
+      <LOD minSize="0.5" ModelFile="dc3_PaxCargo_LOD06.gltf"/>
+	</LODS>
+	  
+
+ 
+<Behaviors>
+        <!-- Includes ###################################### -->
+        <Include ModelBehaviorFile="Asobo\Common.xml"/>
+        <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+             <Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+    <!-- ###################################### -->
+
+
+ <Component ID="Effects_use">
+
+
+<Component ID="starter1upd">
+<UseTemplate Name="ASOBO_GT_Update">
+                <FREQUENCY>30</FREQUENCY>
+                <UPDATE_CODE>
+(A:GENERAL ENG STARTER:1,bool) (A:general eng combustion:1, bool) 0 == and if{ 1 (&gt;L:startereffect1_on,bool) }
+(L:startereffect1_on,bool) if{ 
+    (L:exhaust_l_count,number) ++ (&gt;L:exhaust_l_count,number)
+ }
+ (L:exhaust_l_count,number) 100 &gt; if{ 0 (&gt;L:exhaust_l_count,number) 0 (&gt;L:startereffect1_on,bool) }
+
+ (A:GENERAL ENG STARTER:2,bool) (A:general eng combustion:2, bool) 0 == and if{ 1 (&gt;L:startereffect2_on,bool) }
+(L:startereffect2_on,bool) if{ 
+    (L:exhaust_r_count,number) ++ (&gt;L:exhaust_r_count,number)
+ }
+ (L:exhaust_r_count,number) 100 &gt; if{ 0 (&gt;L:exhaust_r_count,number) 0 (&gt;L:startereffect2_on,bool) }
+
+ 
+                </UPDATE_CODE>
+            </UseTemplate>
+</Component>
+        <Component ID="Exhaustsmoke_l">
+                <Parameters Type="Override">
+                    <FX_GUID>{07E2893C-247A-4A87-B857-5B56BCCDEF54}</FX_GUID>
+                    <FX_CODE>(L:exhaust_l_count,number) 30 &gt;</FX_CODE>
+                </Parameters>
+                <Component ID="start_smoke_0" Node="fx_engexh_l_startsmoke">
+                    <UseTemplate Name="ASOBO_GT_FX"/>
+                </Component>  
+              
+            </Component>
+
+       <Component ID="Exhaustsmoke_l_extra">
+                <Parameters Type="Override">
+                    <FX_GUID>{38DB6C13-ECB1-4BFC-93CB-7778F562D177}</FX_GUID>
+                     <FX_CODE>(L:exhaust_l_count,number) 30 &gt;</FX_CODE>
+                </Parameters>
+                <Component ID="start_smoke_1" Node="fx_engexh_lxtra_startsmoke">
+                    <UseTemplate Name="ASOBO_GT_FX"/>
+                </Component>  
+              
+           </Component>
+
+        <Component ID="Exhaustsmoke_r">
+                <Parameters Type="Override">
+                    <FX_GUID>{07E2893C-247A-4A87-B857-5B56BCCDEF54}</FX_GUID>
+                    <FX_CODE>(L:exhaust_r_count,number) 30 &gt;</FX_CODE>
+                </Parameters>
+                <Component ID="start_smoke_0" Node="fx_engexh_r_startsmoke">
+                    <UseTemplate Name="ASOBO_GT_FX"/>
+                </Component>  
+              
+            </Component>
+
+       <Component ID="Exhaustsmoke_r_extra">
+                <Parameters Type="Override">
+                    <FX_GUID>{38DB6C13-ECB1-4BFC-93CB-7778F562D177}</FX_GUID>
+                     <FX_CODE>(L:exhaust_r_count,number) 30 &gt;</FX_CODE>
+                </Parameters>
+                <Component ID="start_smoke_1" Node="fx_engexh_rxtra_startsmoke">
+                    <UseTemplate Name="ASOBO_GT_FX"/>
+                </Component>  
+              
+           </Component>
+
+
+
+</Component>
+
+<Component ID="lightingextra">
+
+<Component ID="emissive_lights_landLeft" Node="land_left_bulb">
+    <UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+      <EMISSIVE_CODE>(A:Electrical master battery, bool) (A:LIGHT LANDING:1, bool) and</EMISSIVE_CODE>
+  </UseTemplate>
+</Component>
+
+<Component ID="emissive_lights_landRight" Node="land_right_bulb">
+    <UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
+      <EMISSIVE_CODE>(A:Electrical master battery, bool) (A:LIGHT LANDING:2, bool) and</EMISSIVE_CODE>
+  </UseTemplate>
+</Component>
+
+
+</Component>
+     <Component ID="GEARS">
+
+            <UseTemplate Name="ASOBO_GEAR_Center_Template">
+            </UseTemplate>
+            <UseTemplate Name="ASOBO_GEAR_Left_Template">
+            </UseTemplate>
+            <UseTemplate Name="ASOBO_GEAR_Right_Template">
+            </UseTemplate>
+            <UseTemplate Name="ASOBO_GEAR_Center_Tire_Template">
+            </UseTemplate>
+            <UseTemplate Name="ASOBO_GEAR_Left_Tire_Template">
+            </UseTemplate>
+            <UseTemplate Name="ASOBO_GEAR_Right_Tire_Template">
+            </UseTemplate>
+
+        </Component>
+
+                                <Component ID="Tailwheel">
+                <UseTemplate Name="ASOBO_GT_Anim_Code">
+                    <ANIM_NAME>c_wheel</ANIM_NAME>
+                    <ANIM_CODE>(A:GEAR CENTER STEER ANGLE, grads) 0 &gt; if{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * } els{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * 200 + }</ANIM_CODE>
+                    <ANIM_LENGTH>200</ANIM_LENGTH>
+                    <ANIM_WRAP>1</ANIM_WRAP>
+                </UseTemplate>
+
+            </Component> 
+
+
+            <Component ID="LANDING_FX">
+      <UseTemplate Name="ASOBO_LANDING_FX"/>
+    </Component> 
+
+
+ <Component ID="visibility_external">
+
+                <Component ID="BatteryDoor_OPEN" Node="batterydoorOPEN">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(A:EXTERNAL POWER ON,bool) </VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+                <Component ID="BatteryDoor_CLOSED" Node="batterydoorCLOSED">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(A:EXTERNAL POWER ON,bool) !</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+                <Component ID="GPU_ON" Node="powercord">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(A:EXTERNAL POWER ON,bool) (A:GPS GROUND SPEED,knots) 0.1 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+
+                <Component ID="SECURITY" Node="security">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:SWITCH_security,bool) (A:GPS GROUND SPEED,knots) 0.1 &lt; and if{ 1 } els{ 0 }</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+ <Component ID="PAXDoor_OPEN" Node="PAXDoor_OPEN">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:SWITCH_Doormain,bool) 0 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+                <Component ID="PAXDoor_CLOSED" Node="PAXDoor_CLOSED">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:SWITCH_Doormain,bool) 0 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+                <Component ID="LUGGAGEDoor_OPEN" Node="LUGGAGEDoor_OPEN">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:SWITCH_DoorLuggage,bool) 0 &gt; if{ 1 } els{ 0 }</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+                <Component ID="LUGGAGEDoor_CLOSED" Node="LUGGAGEDoor_CLOSED">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:SWITCH_DoorLuggage,bool) 0 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+</Component>
+
+                <Component ID="LUGGAGEDoor_CLOSED" Node="LUGGAGEDoor_CLOSED">
+<UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:SWITCH_DoorLuggage,bool) 0 &gt; if{ 0 } els{ 1 }</VISIBILITY_CODE>
+          </UseTemplate>
+</Component>
+
+
+
+    <Component ID="HANDLING">
+
+<UseTemplate Name="ASOBO_HANDLING_Elevator_Template">
+                <ANIM_NAME>elevator_percent_key</ANIM_NAME>
+            </UseTemplate>
+            <UseTemplate Name="ASOBO_HANDLING_Aileron_Template">
+                <ANIM_NAME_LEFT>l_aileron_percent_key</ANIM_NAME_LEFT>
+                <ANIM_NAME_RIGHT>r_aileron_percent_key</ANIM_NAME_RIGHT>
+            </UseTemplate>
+<UseTemplate Name="ASOBO_HANDLING_Rudder_Template">
+                <ANIM_NAME>rudder_percent_key</ANIM_NAME>
+            </UseTemplate>
+
+
+<UseTemplate Name="ASOBO_GT_Anim_Sim">
+    <ANIM_NAME>trimtab_elevator_key_pct</ANIM_NAME>
+    <ANIM_SIMVAR>ELEVATOR TRIM PCT</ANIM_SIMVAR>
+    <ANIM_SIMVAR_UNITS>percent</ANIM_SIMVAR_UNITS>
+    <ANIM_SIMVAR_SCALE>0.5</ANIM_SIMVAR_SCALE>
+    <ANIM_SIMVAR_BIAS>50</ANIM_SIMVAR_BIAS>
+</UseTemplate>
+
+<UseTemplate Name="ASOBO_GT_Anim_Sim">
+    <ANIM_NAME>trimtab_rudder_key_pct</ANIM_NAME>
+    <ANIM_SIMVAR>RUDDER TRIM PCT</ANIM_SIMVAR>
+    <ANIM_SIMVAR_UNITS>percent</ANIM_SIMVAR_UNITS>
+    <ANIM_SIMVAR_SCALE>-0.5</ANIM_SIMVAR_SCALE>
+    <ANIM_SIMVAR_BIAS>50</ANIM_SIMVAR_BIAS>
+</UseTemplate>
+
+<UseTemplate Name="ASOBO_GT_Anim_Sim">
+    <ANIM_NAME>trimtab_aileron_key_pct</ANIM_NAME>
+    <ANIM_SIMVAR>AILERON TRIM PCT</ANIM_SIMVAR>
+    <ANIM_SIMVAR_UNITS>percent</ANIM_SIMVAR_UNITS>
+    <ANIM_SIMVAR_SCALE>-0.5</ANIM_SIMVAR_SCALE>
+    <ANIM_SIMVAR_BIAS>50</ANIM_SIMVAR_BIAS>
+</UseTemplate>
+
+
+<UseTemplate Name="ASOBO_GT_Anim_Code">
+    <ANIM_NAME>l_flap_percent_key</ANIM_NAME>
+                <ANIM_CODE>(L:combustionachieved,bool) if{ (A:TRAILING EDGE FLAPS LEFT PERCENT,percent) } els{ (L:Leftflapnoncombust,number) }</ANIM_CODE>
+                <ANIM_LENGTH>100</ANIM_LENGTH>
+                <ANIM_LAG>10</ANIM_LAG>
+</UseTemplate>
+
+<UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>r_flap_percent_key</ANIM_NAME>
+ <ANIM_CODE>(L:combustionachieved,bool) if{ (A:TRAILING EDGE FLAPS RIGHT PERCENT,percent) } els{ (L:rightflapnoncombust,number) }</ANIM_CODE>
+                <ANIM_LENGTH>100</ANIM_LENGTH>
+                <ANIM_LAG>10</ANIM_LAG>
+</UseTemplate>
+
+<UseTemplate Name="ASOBO_GT_Anim_Sim">
+    <ANIM_NAME>lever_prop_pitch0</ANIM_NAME>
+    <ANIM_SIMVAR>GENERAL ENG PROPELLER LEVER POSITION:1</ANIM_SIMVAR>
+    <ANIM_SIMVAR_UNITS>percent</ANIM_SIMVAR_UNITS>
+    <ANIM_SIMVAR_SCALE>-1.0</ANIM_SIMVAR_SCALE>
+    <ANIM_SIMVAR_BIAS>100</ANIM_SIMVAR_BIAS>
+</UseTemplate>
+
+<UseTemplate Name="ASOBO_GT_Anim_Sim">
+    <ANIM_NAME>lever_prop_pitch1</ANIM_NAME>
+    <ANIM_SIMVAR>GENERAL ENG PROPELLER LEVER POSITION:2</ANIM_SIMVAR>
+    <ANIM_SIMVAR_UNITS>percent</ANIM_SIMVAR_UNITS>
+    <ANIM_SIMVAR_SCALE>-1.0</ANIM_SIMVAR_SCALE>
+    <ANIM_SIMVAR_BIAS>100</ANIM_SIMVAR_BIAS>
+</UseTemplate>
+
+</Component>    
+    
+    
+
+<Component ID="ENGINE">
+
+
+            <UseTemplate Name="ASOBO_GT_Anim_Code">
+                <ANIM_NAME>cowl_flaps0</ANIM_NAME>
+                <ANIM_CODE>(L:Hydsystem,bool) if{ (A:RECIP ENG COWL FLAP POSITION:1,percent) } els{ 0 }</ANIM_CODE>
+                <ANIM_LENGTH>100</ANIM_LENGTH>
+            </UseTemplate>
+    <UseTemplate Name="ASOBO_GT_Anim_Code">
+                <ANIM_NAME>cowl_flaps1</ANIM_NAME>
+                <ANIM_CODE>(L:Hydsystem,bool) if{ (A:RECIP ENG COWL FLAP POSITION:2,percent) } els{ 0 }</ANIM_CODE>
+                <ANIM_LENGTH>100</ANIM_LENGTH>
+            </UseTemplate>
+
+
+            <UseTemplate Name="ASOBO_ENGINE_Propeller_Template">
+                <ID>1</ID>
+                <ANIM_NODE_ID>Prop1</ANIM_NODE_ID>
+                <ANIM_NAME>prop_anim</ANIM_NAME>
+                <STILL_NODE_ID>prop1_still</STILL_NODE_ID>
+                <SLOW_NODE_ID>prop1_slow</SLOW_NODE_ID>
+                <PROP_BLURRED_NODE_ID>prop1_blurred</PROP_BLURRED_NODE_ID>
+                <PROP_SIDE_BLURRED_NODE_ID>PROP_SIDE_BLUR</PROP_SIDE_BLURRED_NODE_ID>
+            </UseTemplate>
+
+<UseTemplate Name="ASOBO_ENGINE_Propeller_Template">
+                <ID>2</ID>
+                <ANIM_NODE_ID>Prop2</ANIM_NODE_ID>
+                <ANIM_NAME>prop2_anim</ANIM_NAME>
+                <STILL_NODE_ID>prop2_still</STILL_NODE_ID>
+                <SLOW_NODE_ID>prop2_slow</SLOW_NODE_ID>
+                <PROP_BLURRED_NODE_ID>prop2_blurred</PROP_BLURRED_NODE_ID>
+                <PROP_SIDE_BLURRED_NODE_ID>PROP2_SIDE_BLUR</PROP_SIDE_BLURRED_NODE_ID>
+            </UseTemplate>
+
+       <UseTemplate Name="ASOBO_GT_Anim_Code">
+                <ANIM_NAME>Custom_prop_0</ANIM_NAME>
+                <ANIM_CODE>(L:Custom_prop_0,number) 100 %</ANIM_CODE>
+                <ANIM_LENGTH>100</ANIM_LENGTH>
+            </UseTemplate>
+
+            <UseTemplate Name="ASOBO_GT_Anim_Code">
+                <ANIM_NAME>Custom_prop_1</ANIM_NAME>
+                <ANIM_CODE>(L:Custom_prop_1,number) 100 %</ANIM_CODE>
+                <ANIM_LENGTH>100</ANIM_LENGTH>
+            </UseTemplate>
+
+
+        </Component>
+
+
+</Behaviors>
+
+</ModelInfo>
+
+    
